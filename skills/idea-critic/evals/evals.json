@@ -1,0 +1,26 @@
+{
+  "skill_name": "idea-critic",
+  "evals": [
+    {
+      "id": 0,
+      "name": "toolbox-portal",
+      "prompt": "I want to build a toolbox portal: one page with my bookmarks, a stocks widget and a VPN toggle. Widgets are importable and you click to open them. Criticise this idea from different perspectives - user, investor, other important stakeholders.",
+      "expected_output": "Short plain-language critique with user, investor and 1-3 other relevant people, each with one worry and a fix, plus biggest risk, verdict and next step.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "name": "plant-subscription-box",
+      "prompt": "thinking of starting a subscription box for indoor plant owners in montreal, $35/month, you get one plant + a care card each month. poke holes in it pls",
+      "expected_output": "Short plain-language critique. Should pick stakeholders that fit a physical subscription business (e.g. supplier, shipping in winter), not a generic list.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "async-standup-bot",
+      "prompt": "I want to propose to my boss that we replace our weekly status meeting with a Slack bot that collects everyone's updates async. What would people push back on?",
+      "expected_output": "Short plain-language critique. The 'money person' should be the boss or budget owner, not an investor. Co-workers should appear.",
+      "files": []
+    }
+  ]
+}
